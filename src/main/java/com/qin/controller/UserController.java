@@ -30,6 +30,8 @@ public class UserController {
 
     @RequestMapping
     public String getLogin() {
+        System.out.println("ikun");
+
         return "url";
     }
 }
