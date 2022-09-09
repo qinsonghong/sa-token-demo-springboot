@@ -27,4 +27,9 @@ public class UserController {
     public String orLogin() {
         return "当前会话登录：is or no";
     }
+
+    @RequestMapping
+    public String getLogin() {
+        return "url";
+    }
 }
