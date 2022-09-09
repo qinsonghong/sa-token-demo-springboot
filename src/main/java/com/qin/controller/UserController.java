@@ -25,6 +25,8 @@ public class UserController {
 
     @RequestMapping
     public String orLogin() {
+        System.out.println("纯路人来了！");
+
         return "当前会话登录：is or no";
     }
 
