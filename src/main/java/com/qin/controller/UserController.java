@@ -23,4 +23,8 @@ public class UserController {
         return "当前会话是否登录："  +  StpUtil.isLogin();
     }
 
+    @RequestMapping
+    public String orLogin() {
+        return "当前会话登录：is or no";
+    }
 }
